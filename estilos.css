@@ -389,12 +389,11 @@ a{
                         }
                         .textoFot span{
                             color: red;
-                            
                             text-decoration-line: underline;
                         }
                         .hover:hover {
                             cursor: pointer;
-                           color: blue; 
+                            color: blue; 
                         }
                 .AllC{
                     display: flex;
