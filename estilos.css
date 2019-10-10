@@ -30,11 +30,19 @@ a{
             align-content: space-between;
                         
         }
-            
+          .iconos-Sociales {
+               
+            color: #fff;
+            }
+            .iconos-Sociales:hover{
+                cursor: pointer;
+                color: #fcd307;
+               
+            }
             .redesS{
                 
                 display: flex;
-                color: #fff;
+                
                 flex-flow: row wrap;
                 flex: 5 4 auto;
                 align-items: flex-start;
@@ -46,6 +54,7 @@ a{
                 .redesS a{
                     align-items: center;
                     padding: 5px 5px;
+                   
                 }
                 .phone{
                     display: flex;
