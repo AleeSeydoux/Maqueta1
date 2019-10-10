@@ -77,6 +77,12 @@ a{
                         
                         
                     }
+                    .boton:hover{
+                        background: #e74c3c;
+                       cursor: pointer;
+                       color: white;
+                  
+                    }
     
             .Inicio{
                 display: flex;
@@ -264,6 +270,7 @@ a{
                                 margin-bottom: 100px;
                                 
                             } 
+
                         .text h2{
                             color: #000;
                             margin-left: 15px;
@@ -279,11 +286,19 @@ a{
                     height: 50px;
                     width: 100%;
                     border-radius: 5px;
-                    cursor: pointer;
                     margin-bottom: 10px;
-                    
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-size: 18px;
+                }
+                .boton2:hover{
+                    background: #e74c3c;
+                       cursor: pointer;
+                       color: white;
+                }
+                .boton3:hover{
+                    background: #e74c3c;
+                       cursor: pointer;
+                       color: white;
                 }
 
             .Tutors{
@@ -365,8 +380,12 @@ a{
                         }
                         .textoFot span{
                             color: red;
-                            cursor: pointer;
+                            
                             text-decoration-line: underline;
+                        }
+                        .hover:hover {
+                            cursor: pointer;
+                           color: blue; 
                         }
                 .AllC{
                     display: flex;
