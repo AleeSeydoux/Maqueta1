@@ -30,11 +30,19 @@ a{
             align-content: space-between;
                         
         }
-            
+          .iconos-Sociales {
+               
+            color: #fff;
+            }
+            .iconos-Sociales:hover{
+                cursor: pointer;
+                color: #fcd307;
+               
+            }
             .redesS{
                 
                 display: flex;
-                color: #fff;
+                
                 flex-flow: row wrap;
                 flex: 5 4 auto;
                 align-items: flex-start;
@@ -46,6 +54,7 @@ a{
                 .redesS a{
                     align-items: center;
                     padding: 5px 5px;
+                   
                 }
                 .phone{
                     display: flex;
@@ -76,6 +85,12 @@ a{
                     border-radius: 5px;  
                         
                         
+                    }
+                    .boton:hover{
+                        background: #e74c3c;
+                       cursor: pointer;
+                       color: white;
+                  
                     }
     
             .Inicio{
@@ -264,6 +279,7 @@ a{
                                 margin-bottom: 100px;
                                 
                             } 
+
                         .text h2{
                             color: #000;
                             margin-left: 15px;
@@ -279,11 +295,19 @@ a{
                     height: 50px;
                     width: 100%;
                     border-radius: 5px;
-                    cursor: pointer;
                     margin-bottom: 10px;
-                    
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-size: 18px;
+                }
+                .boton2:hover{
+                    background: #e74c3c;
+                       cursor: pointer;
+                       color: white;
+                }
+                .boton3:hover{
+                    background: #e74c3c;
+                       cursor: pointer;
+                       color: white;
                 }
 
             .Tutors{
@@ -365,8 +389,12 @@ a{
                         }
                         .textoFot span{
                             color: red;
-                            cursor: pointer;
+                            
                             text-decoration-line: underline;
+                        }
+                        .hover:hover {
+                            cursor: pointer;
+                           color: blue; 
                         }
                 .AllC{
                     display: flex;
